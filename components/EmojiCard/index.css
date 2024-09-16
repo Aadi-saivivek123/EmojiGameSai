@@ -1,0 +1,48 @@
+/* Write your code here. */
+@media screen and (min-width: 768px) {
+    .list-emoji {
+      background-color: #ffffff33;
+      border: 3px solid #ffffff33;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+    }
+    .emoji {
+      width: 60%;
+      height: 60%;
+      align-self: center;
+      margin: 40px;
+    }
+    .emoji-button {
+      border: none;
+      background-color: transparent;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .list-emoji {
+      background-color: #ffffff33;
+      border: 3px solid #ffffff33;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 10px;
+    }
+    .emoji {
+      width: 50%;
+      height: 65%;
+      align-self: center;
+      margin: 10px;
+    }
+    .emoji-button {
+      border: none;
+      background-color: transparent;
+    }
+  }
+  
